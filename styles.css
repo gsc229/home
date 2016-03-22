@@ -1,0 +1,195 @@
+html,
+body{
+  padding: 0;
+  background-color: rgba(255,0,0,.3);
+  width: 100%;
+}
+
+/*
+nav.navbar-inverse {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  font-family: Helvetica, Times, san-serif;
+  font-weight: bolder;
+  padding: 0 20px;
+} */
+
+
+.navbar .container {
+    
+    height: 85px;
+    padding: 10px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+
+
+
+
+.cover {
+ background: url("http://www.androidpolice.com/wp-content/uploads/2014/03/nexusae0_Sculpture2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1080px;
+  width: 100%;
+  display: inline-block;
+  box-shadow: inset 0 0 100px #000;
+  opacity:.85;
+  
+  
+}
+.cover div {
+  display: inline-block;
+  color: white;
+  letter-spacing: -1px;
+  margin: 20%;
+  padding: 40px;
+  background-color: rgba(100,70,200,.5);
+  
+}
+.cover h1{
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: -4px;
+  color: #eef;
+}
+.cover p {
+  font-size: 25px;
+  letter-spacing: -2.5px;
+}
+
+#design-goals-periscope {
+  position: relative;
+  height: 1200px;
+  width: 100%;
+ background: url("http://www.magic4walls.com/wp-content/uploads/2014/01/city-Docklands-london-night-river-bridge-houses-skyscrapers.jpg") no-repeat top left;
+  background-size: cover;
+  background-attachment: fixed ;
+ 
+}
+#design-goals-periscope-text {
+ padding: 40px;
+ color: #eef;
+ background-color: rgba(200,100,70,.5);
+ display: block;
+    margin: 0 auto;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#design-goals-periscope-text h1 {
+  font-size: 70px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: -4px; 
+  
+}
+
+#design-goals-second-background {
+  height: 785px;
+//  background: url("http://d.ibtimes.co.uk/en/full/1379884/tower-bridge-tower-london-night-showing-shard-city.jpg") no-repeat;
+  opacity: .97;
+  background-size: cover;
+}
+
+#carousel h5 {
+  color: white;
+
+  
+  
+}
+#carousel {
+  margin-top: 10%;
+  width: 800px;
+  height: 800px;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,.8);
+}
+
+.item {
+  height: 700px;
+  
+}
+
+#periscope-container {
+  position: relative;
+  height: 500px;
+  width: 100%;
+ background: url("http://facadeskills.weebly.com/uploads/7/6/5/1/765197/785064_orig.jpg")  /*("http://inhabitat.com/wp-content/blogs.dir/1/files/2015/11/Great-Amber-Hall-Exterior-Night-Volker-Giencke-%C2%A9-Indrikis-Sturmanis.jpg")/*("http://www.clauss-markisen.de/fileadmin/Projekte_Fotos/Innenliegender_Sonnenschutz/Novartis_Gehry_Basel/0090817-6184.jpg")*/no-repeat top left;
+  background-size: cover;
+  background-attachment: fixed ;
+  
+}
+#periscope-text {
+ padding: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+ color: #eef;
+ background-color: rgba(200,100,70,.5);
+ display: block;
+}
+
+#periscope-text h1{
+  font-size: 70px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: -4px; 
+}
+
+#second-background {
+  height: 1200px;
+  background: url("http://cdn.pcwallart.com/images/new-york-city-street-scene-wallpaper-1.jpg") no-repeat;
+  opacity: .97;
+  background-size: cover;
+  
+}
+
+#media-links {
+    position: relative;
+    width: 1000px;
+    margin: 20% auto;
+    
+}
+#second-background ul {
+    width: 1200px;
+  height: 200px;
+  padding: 20px;
+  
+margin: 20% auto;
+  
+  border-radius: 2%;
+  
+  }
+#second-background li {
+  
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 15px;
+  
+}
+#second-background button {
+  padding: 10px;  
+  background-color: rgba(0,255,255,.6);
+  
+  
+}
+#second-background button {
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+ }
+
+#LinkedIn:hover {
+  background-color: rgba(204,51,102,.6);
+}
+
+#Github:hover {
+  background-color: rgba(255,255,103,.6);
+}
+
+#codeCamp:hover {
+  background-color: rgba(204,153,204,.6);
+}
